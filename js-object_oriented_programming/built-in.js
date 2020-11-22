@@ -14,6 +14,8 @@ var MyMath = {
     }
 }
 
-console.log(MyMath.PI)
-console.log(MyMath.random())
-console.log(MyMath.floor(3.9))
+console.log(MyMath.PI);
+console.log(MyMath.random());
+console.log(MyMath.floor(3.9));
+
+var MyMath_PI = Math.PI;
