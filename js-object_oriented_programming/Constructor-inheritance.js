@@ -17,6 +17,7 @@ function PersonPlus(name, first,second,third){
 // PersonPlus.prototype.__proto__ = Person.prototype; //밑에꺼와 같음
 PersonPlus.prototype = Object.create(Person.prototype); //이거만 하면 kim.constructor는 person을 가리킴
 PersonPlus.prototype.constructor = PersonPlus; //해줘야 personplus의 constructor를 가리킴
+
 PersonPlus.prototype.avg = function(){
     return (this.first+this.second+this.third)/3
 }
